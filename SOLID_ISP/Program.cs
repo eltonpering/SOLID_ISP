@@ -6,7 +6,15 @@ namespace SOLID_ISP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var produto = new CadastrarProduto();
+            produto.ValidarDados();
+            produto.SalvarDataBase();
+
+            var cliente = new CadastrarCliente();
+            cliente.ValidarDados();
+            cliente.SalvarDataBase();
+
+            Console.ReadLine();
         }
     }
 }
