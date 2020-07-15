@@ -1,5 +1,5 @@
 # SOLID_ISP - Interface Segregation Principle
-SOLID CONCEPTS
+- SOLID CONCEPTS -
 
 Muitas interfaces específicas são melhores do que uma interface geral.
 
